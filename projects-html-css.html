@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+        <meta charset="UTC-8">
+        <meta name="description" content="Joy Taylor's Portfolio">
+        <meta name="author" content="Joy Taylor">
+        <title>HTML & CSS Projects - Enjoy Life - Joy Taylor's Portfolio</title>
+        <link rel="stylesheet" href="styles.css">
+        <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+        <script>
+        // * Toggle between showing and hiding the navigation menu links when the user clicks on the hamburger menu / bar icon */
+            function myFunction() {
+              var x = document.getElementById("page-links");
+              if (x.style.display === "block") {
+                x.style.display = "none";
+              } else {
+                x.style.display = "block";
+              }
+            } 
+        </script>
+        <link href="https://fonts.googleapis.com/css2?family=Playball&family=Roboto:wght@300&family=Shadows+Into+Light+Two&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <header class="page-header">
+            <!-- Top Navigations Menu -->
+            <nav class="header-nav">
+                <a class="home-page-link" href="index.html">enjoy life</a>
+                <!-- Navigation links (hidden by default) -->
+                <div id="page-links">
+                    <a href="index.html">Home</a>
+                    <a href="projects.html">Projects</a>
+                    <a href="about-joy.html">About Joy</a>
+                </div>
+                <!-- "Hamburger menu" to toggle the navigation links -->
+                <div class="header-block" id="lotus">
+                    <a href="javascript:void(0);" class="lotus" id="lotus" onclick="myFunction()">
+                        <img class="menu-button" src="Images/Lotus flower - green on transparent.png">
+                    </a>
+                </div>
+            </nav>
+            
+            <div class="header-img">
+                <img class="projects-image" src="Images/projects-image.jpg" alt="Photo of a Keyboard">
+            </div>
+            <h1>html/css</h1>
+        </header>
+
+        <article class="specific-projects">
+            <header class="specific-project-header" id="project-one">
+                <h4>Project One</h4>
+                <p>Created by Joy Taylor and [other contributors] in Month Year</p>
+            </header>
+            <body>
+                <div class="specific-project-text" id="project-one-text">
+                    <p>This paragraph will explain the purpose of the project, 
+                        ie to learn about xxx language. Also include any key 
+                        learning that resulted from completing the project.</p>
+                </div>
+                <div class="specific-project-blocks">
+                    <a class="specific-project-backend" id="project-one-name" href="#project-one-backend-name">
+                        <img class="specific-project-image" id="specific-project-one-backend-image" src="Images/project-images-square/1.jpg"></a>
+                <div class="specific-project-blocks">
+                    <a class="specific-project-frontend" id="project-one-name" href="#project-one-frontend-name">
+                        <img id="specific-project-image" id="specific-project-one-frontend-image" src="Images/project-images-square/2.jpg"></a>
+                </div>
+            </body>
+            <footer>
+                <p>Reference the original source of the project.</p>
+            </footer>
+        </article>
+        
+        <article class="specific-projects">
+            <header class="specific-project-header" id="project-two">
+                <h4>Project Two</h4>
+                <p>Created by Joy Taylor and [other contributors] in Month Year</p>
+            </header>
+            <body>
+                <div class="specific-project-text" id="project-one-text">
+                    <p>This paragraph will explain the purpose of the project, 
+                        ie to learn about xxx language. Also include any key 
+                        learning that resulted from completing the project.</p>
+                </div>
+                <div class="specific-project-blocks">
+                    <a class="specific-project-backend" id="project-two-name" href="#project-two-backend-name">
+                        <img class="specific-project-image" id="specific-project-one-backend-image" src="Images/project-images-square/1.jpg"></a>
+                <div class="specific-project-blocks">
+                    <a class="specific-project-frontend" id="project-two-name" href="#project-two-frontend-name">
+                        <img id="specific-project-image" id="specific-project-two-frontend-image" src="Images/project-images-square/2.jpg"></a>
+                </div>
+            </body>
+            <footer>
+                <p>Reference the original source of the project.</p>
+            </footer>
+        </article>
+
+        <article class="specific-projects">
+            <header class="specific-project-header" id="project-three">
+                <h4>Project Three</h4>
+                <p>Created by Joy Taylor and [other contributors] in Month Year</p>
+            </header>
+            <body>
+                <div class="specific-project-text" id="project-one-text">
+                    <p>This paragraph will explain the purpose of the project, 
+                        ie to learn about xxx language. Also include any key 
+                        learning that resulted from completing the project.</p>
+                </div>
+                <div class="specific-project-blocks">
+                    <a class="specific-project-backend" id="project-three-name" href="#project-three-backend-name">
+                        <img class="specific-project-image" id="specific-project-three-backend-image" src="Images/project-images-square/1.jpg"></a>
+                <div class="specific-project-blocks">
+                    <a class="specific-project-frontend" id="project-three-name" href="#project-three-frontend-name">
+                        <img id="specific-project-image" id="specific-project-three-frontend-image" src="Images/project-images-square/2.jpg"></a>
+                </div>
+            </body>
+            <footer>
+                <p>Reference the original source of the project.</p>
+            </footer>
+        </article>
+
+        <form action="https://formspree.io/mnqgggyn" method="POST">
+            <h2>Do you have a comment or a question?</h2>
+            <div class="form-item">
+                <input type="text" id="name" name="name" placeholder="Your Name">
+            </div>
+            <div class="form-item">
+                <input type="email" id="email" name="email" placeholder="Your Email">
+            </div>
+            <div class="form-item">
+                <textarea type="comment" id="comment" name="comment" placeholder="Your comment or question"></textarea>
+            </div>
+            <div class="form-item">
+                <button type="submit">Submit</button>
+            </div>
+            <p>Thank you for taking the time to visit and explore!</p>
+        </form>
+
+    </body>
+
+    <footer>
+        <div class="footer">
+            <div class="footer-social-links">
+                <div class="footer-links">
+                    <a class="link-icons" id="github" href="https://github.com/jcat7414"><img class="flinks" id="git-hub" src="Images/git-logo.png"></a>
+                </div>
+                <div>
+                    <a class="link-icons" id="linkedin" href="https://www.linkedin.com/in/joymtaylor/"><img class="flinks" id="linkedin" src="Images/linkedin-logo.png"></a>
+                </div>
+                <div>
+                    <a class="link-icons" id="twitter" href="https://twitter.com/jcat7414"><img class="flinks" id="twitter" src="Images/twitter-logo.png"></a>
+                </div>
+            </div>
+            <div class="footer-copy">
+                <p>&copy; Joy Taylor 2020 - She Codes Plus (Brisbane)</p>
+            </div>
+        </div>
+    </footer>
+
+</html>

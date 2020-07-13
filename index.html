@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+        <meta charset="UTC-8">
+        <meta name="description" content="Joy Taylor's Portfolio">
+        <meta name="author" content="Joy Taylor">
+        <title>Enjoy Life - Joy Taylor's Portfolio</title>
+        <link rel="stylesheet" href="styles.css">
+        <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+        <script>
+        // * Toggle between showing and hiding the navigation menu links when the user clicks on the hamburger menu / bar icon */
+            function myFunction() {
+              var x = document.getElementById("page-links");
+              if (x.style.display === "block") {
+                x.style.display = "none";
+              } else {
+                x.style.display = "block";
+              }
+            } 
+        </script>
+        <link href="https://fonts.googleapis.com/css2?family=Playball&family=Roboto:wght@300&family=Shadows+Into+Light+Two&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <header class="page-header">
+            <!-- Top Navigations Menu -->
+            <nav class="header-nav">
+                <div class="header-block" id="home-link">
+                    <a class="home-page-link" href="index.html">enjoy life</a>
+                </div>
+                <!-- Navigation links (hidden by default) -->
+                <div class="header-block" id="page-links">
+                    <a href="index.html">Home</a>
+                    <a href="projects.html">Projects</a>
+                    <a href="about-joy.html">About Joy</a>
+                </div>
+                <!-- "Hamburger menu" to toggle the navigation links -->
+                <div class="header-block" id="lotus">
+                    <a href="javascript:void(0);" class="lotus" id="lotus" onclick="myFunction()">
+                        <img class="menu-button" src="Images/Lotus flower - green on transparent.png">
+                    </a>
+                </div>
+            </nav>
+            
+            <div class="header-img">
+                <img class="home-image" src="Images/About Joy Placeholder 1980x400.jpg" alt="Placeholder image">
+            </div>
+            <h1>enjoy life</h1>
+        </header>
+
+        <section class="introduction">
+            <div class="intro-words">
+                <p>I invite you to take a few moments to consider how much you "enjoy life".</p>
+                <p>This portfolio of projects that I have created, either on my own or with others,
+                    is an example of my developing coding knowledge and skills.</p>
+                <p>You are most welcome to browse through the pages and provide your comments or ask
+                    any questions you have via the form at the bottom of each page. Receiving 
+                    your feedback will enable me to learn and improve. </p>
+                <p>In the future, I will be seeking opportunities to work on software development
+                    projects that align with my areas of interest. Check out the 'About Joy' page to 
+                    discover more about those.</p>
+                <p id="cheers">Thank you for visiting, (en)Joy</p>
+            </div>
+            <div class="profile-photo">
+                <img class="joy-photo" src="Images/Joy Taylor - profile photo - square.jpg" width=250px>
+            </div>
+        </section>
+
+        <nav class="nav-bar-full-width">
+            <div class="nav-bar">
+                <a class="nav-link" id="projects-page-link" href="projects.html">Projects</a>
+            </div>
+            <div class="nav-bar">
+                <a class="nav-link" id="about-joy=page-link" href="about-joy.html">About Joy</a>
+            </div>
+        </nav>
+
+        <section class="seeking-feedback">
+            <p class="asking">Once you have had a look around, I would really
+                appreciate your time in sending through any comments or questions
+                you thought of. I am keen to hear any constructive feedback as 
+                well as complimentary...it helps me to improve!</p>
+        </section>
+
+        <form action="https://formspree.io/mnqgggyn" method="POST">
+            <h2>Do you have a comment or a question?</h2>
+            <div class="form-item">
+                <input type="text" id="name" name="name" placeholder="Your Name">
+            </div>
+            <div class="form-item">
+                <input type="email" id="email" name="email" placeholder="Your Email">
+            </div>
+            <div class="form-item">
+                <textarea type="comment" id="comment" name="comment" placeholder="Your comment or question"></textarea>
+            </div>
+            <div class="form-item">
+                <button type="submit">Submit</button>
+            </div>
+            <p>Thank you for taking the time to visit and explore!</p>
+        </form>
+
+    </body>
+
+    <footer>
+        <div class="footer">
+            <div class="footer-social-links">
+                <div class="footer-links">
+                    <a class="link-icons" id="github" href="https://github.com/jcat7414"><img class="flinks" id="git-hub" src="Images/git-logo.png"></a>
+                </div>
+                <div>
+                    <a class="link-icons" id="linkedin" href="https://www.linkedin.com/in/joymtaylor/"><img class="flinks" id="linkedin" src="Images/linkedin-logo.png"></a>
+                </div>
+                <div>
+                    <a class="link-icons" id="twitter" href="https://twitter.com/jcat7414"><img class="flinks" id="twitter" src="Images/twitter-logo.png"></a>
+                </div>
+            </div>
+            <div class="footer-copy">
+                <p>&copy; Joy Taylor 2020 - She Codes Plus (Brisbane)</p>
+            </div>
+        </div>
+    </footer>
+
+</html>

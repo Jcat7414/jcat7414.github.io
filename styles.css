@@ -1,0 +1,276 @@
+html {
+  background-color: snow;
+  font-family: 'Roboto', sans-serif;
+  font-size: medium;
+  color: #2e4007;
+
+}
+
+body {
+  width: 1880px;  
+  height: auto;
+}
+
+header.page-header {
+  width: 1880px;
+  height: 450px;
+}
+
+/* Style the header navigation menu - common to all pages */
+.header-nav {
+  height: 50px;
+  overflow: hidden;
+  background-color: #669966;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  font-size: 24px;
+}
+
+.header-block {
+  height: 50px;
+  padding-top: 10px;
+}
+
+/* Style the home/logo link */
+.home-page-link {
+  font-family: 'Playball', cursive;
+  color: #fff9f9;
+  text-decoration: none;
+  font-size: 24px;
+  padding-left: 30px;
+}
+
+/* Hide the links inside the navigation menu (except for home and lotus) */
+#page-links {
+  display: none;
+}
+
+#page-links a {
+  font-family: 'Shadows Into Light Two', cursive;
+  font-size: 18px;
+  display: block;
+  float: left;
+  color: #fff9f9;
+  text-align: center;
+  text-decoration: none;
+  padding: 5px 15px 5px 15px;
+}
+
+#page-links a:hover {
+  background-color: #fff9f9 ;
+  color: #2e4007;
+}
+
+/* Style the hamburger (lotus) menu */
+#lotus {
+  padding-right: 0px;
+  padding-top: 0px;
+  width: 100px;
+}
+
+/* Style the header image with page title overlay - common to each page */
+.header-img {
+  margin-top: 50px;
+}
+
+.home-img {
+  width: 100%;
+  height: auto;
+}
+
+.projects-img {
+  width: 100%;
+  height: auto;
+}
+
+h1 {
+  font-family: 'Playball', cursive;
+  font-size: 120px;
+  text-align: center;
+  margin-top: -280px;
+}
+
+/* Style for introduction section on Home Page */
+.introduction {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.intro-words {
+  flex-basis: 50%;
+  margin-left: 10%;
+  text-align: justify;
+}
+
+#cheers {
+  text-align: end;
+  padding-right: 50px;
+}
+
+.profile-photo {
+  flex-basis: 20%;
+  justify-items: center;
+}
+
+/* Style for nav bar on Home Page */
+.nav-bar-full-width {
+  margin-top: 50px;
+  background-color: #669966;
+  padding: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  height: 140px;
+}
+
+.nav-link {
+  display: flex;
+  font-family: 'Shadows Into Light Two', cursive;
+  color: #2e4007;
+  font-size: 24px;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  border: 1px solid #2e4007;
+  width: 120px;
+  height: 120px;
+  background-color: #fff9f9;
+}
+
+.nav-link:hover {
+  background-color: #2e4007;
+  color: #fff9f9;
+  border: 1px solid #fff9f9;
+}
+
+.asking {
+  width: 30%;
+  text-align: justify;
+  padding-top: 50px;
+  margin: auto;
+}
+
+/* Style for Projects Page content section */
+.projects {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding-top: 100px;
+  padding-bottom: 25px;
+}
+
+#learning {
+  padding-top: 125px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.projects-text {
+  flex-basis: 28%;
+  margin-left: 10%;
+  text-align: justify;
+  align-self: center;
+}
+
+h3 {
+  font-family: 'Shadows Into Light Two', cursive;
+  font-size: 20px;
+  color: #669966;
+}
+
+.profile-blocks {
+  /* flex-basis: 15%; */
+  /* width: 400px; */
+  border: 3px solid #2e4007;
+}
+
+.project-image {
+  width: auto;
+  height: auto;
+  padding: 3px;
+  padding-top: 3px;
+}
+
+.project-blocks:hover {
+  border: 2px solid #2e4007;
+}
+
+/* Styling of the form section - common to all pages */
+h2 {
+  font-family: 'Shadows Into Light Two', cursive;
+  font-size: 24px;
+  text-align: center;
+  padding-top: 20px;
+}
+
+form {
+  margin: 50px auto;
+  width: 60%;
+  border-top: 1px solid #2e4007;
+  border-bottom: 1px solid #2e4007;
+}
+
+.form-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.form-item input,
+.form-item textarea,
+.form-item button {
+  flex-basis: 50%;
+  border: 1px solid #2e4007;
+  font-family: 'Shadows Into Light Two', cursive;
+  font-size: 18px;
+  text-align: center;
+  padding: 10px;
+}
+
+.form-item button {
+  background-color: #fff9f9;
+  flex-basis: 25%;
+}
+
+.form-item button:hover {
+  background-color: #669966;
+  color: #fff9f9;
+  border: 1px solid #fff9f9;
+}
+
+form p {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+/* Style for footer section - common to every page */
+footer {
+  width: 60%;
+  margin: auto;
+  padding-bottom: 15px;
+}
+
+.footer-social-links {
+  display: flex;
+  justify-content: center;
+}
+
+.link-icons {
+  display: block;
+  padding: 10px;
+  /* padding-left: 10px; */
+  /* padding-right: 10px; */
+}
+
+.footer-copy {
+  text-align: center;
+}
+

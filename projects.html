@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+        <meta charset="UTC-8">
+        <meta name="description" content="Joy Taylor's Portfolio">
+        <meta name="author" content="Joy Taylor">
+        <title>Projects - Enjoy Life - Joy Taylor's Portfolio</title>
+        <link rel="stylesheet" href="styles.css">
+        <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+        <script>
+        // * Toggle between showing and hiding the navigation menu links when the user clicks on the hamburger menu / bar icon */
+            function myFunction() {
+              var x = document.getElementById("page-links");
+              if (x.style.display === "block") {
+                x.style.display = "none";
+              } else {
+                x.style.display = "block";
+              }
+            } 
+        </script>
+        <link href="https://fonts.googleapis.com/css2?family=Playball&family=Roboto:wght@300&family=Shadows+Into+Light+Two&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <header class="page-header">
+            <!-- Top Navigations Menu -->
+            <nav class="header-nav">
+                <div class="header-block" id="home-link">
+                    <a class="home-page-link" href="index.html">enjoy life</a>
+                </div>
+                <!-- Navigation links (hidden by default) -->
+                <div class="header-block" id="page-links">
+                    <a href="index.html">Home</a>
+                    <a href="projects.html">Projects</a>
+                    <a href="about-joy.html">About Joy</a>
+                </div>
+                <!-- "Hamburger menu" to toggle the navigation links -->
+                <div class="header-block" id="lotus">
+                    <a href="javascript:void(0);" class="lotus" id="lotus" onclick="myFunction()">
+                        <img class="menu-button" src="Images/Lotus flower - green on transparent.png">
+                    </a>
+                </div>
+            </nav>
+            
+            <div class="header-img">
+                <img class="projects-image" src="Images/projects-image.jpg" alt="Photo of a Keyboard">
+            <h1>projects</h1>
+        </header>
+
+        <section class="projects">
+            <div id="learning">
+                <div class="projects-text" id="learning-code">
+                    <h3>Learning to Code</h3>
+                    <p>This portfolio website is the first project that I have been tasked to create on my own, 
+                        as part of the She Codes Plus (Brisbane) program. The program runs for six months 
+                        from June to December 2020.</p>
+                    <p>During the program, myself and 19 other ladies from Queensland will
+                        be introduced to several programming languages, including HTML, CSS, 
+                        Javascript, Python, Django and React.</p>
+                </div>
+                <div class="project-blocks">
+                    <a class="project-image" id="html-css" href="projects-html-css.html"><img id="html-project-image" src="Images/project-images-square/1.jpg"></a>
+                </div>
+                <div class="project-blocks">
+                    <a class="project-image" id="python" href="#python"><img id="python-project-image" src="Images/project-images-square/2.jpg"></a>
+                </div>
+            </div>
+        </section>
+
+        <section class="projects">
+            <div class="projects-text" id="journey">
+                <h3>On A Journey</h3>
+                <p>My journey of learning to code began many years ago, with a very basic
+                    introduction to HTML at university many years ago. I did not see the point
+                    at the time and my instructor did not encourage us or offer any suggestion of
+                the potential use of the skill.</p>
+                <p>Now, almost 20 years later, I understand the value of being able communicate
+                    in languages other than those that we speak verbally. As an avid traveller, I
+                    am regularly challenged by my lack of diversity in spoken language and expect to 
+                    face similar challenges on my coding journey as I explore new possibilities.</p>
+            </div>
+            <div class="project-blocks">
+                <a class="project-image" id="django" href="#django"><img id="django-project-image" src="Images/project-images-square/3.jpg"></a>
+            </div>
+            <div class="project-blocks">
+                <a class="project-image" id="react" href="#react"><img id="react-project-image" src="Images/project-images-square/4.jpg"></a>
+            </div>
+        </section>
+
+        <section class="projects">
+            <div class="projects-text" id="create">
+                <h3>Create With Technology</h3>
+                <p>Since early 2016, I have been encouraging parents of kids who are interested in learning
+                    to create with technology, to let them explore and discover the possibilities in a fun 
+                    and friendly environment with their peers and supportive mentors.</p>
+                <p>As the Champion of CoderDojo Toowoomba, myself and other mentors spend their
+                    Saturdays teaching these kids coding, robotics and electronics. We foster an
+                    environment of exploring curiousity, challenging assumptions and building vocabulary 
+                    and communication styles through individual and group learning.</p>
+            </div>
+            <div class="project-blocks">
+                <a class="project-image" id="other-1" href="#other-1"><img id="other-1-project-image" src="Images/project-images-square/5.jpg"></a>
+            </div>
+            <div class="project-blocks">
+                <a class="project-image" id="other-2" href="#other-2"><img id="other-2-project-image" src="Images/project-images-square/6.jpg"></a>
+            </div>
+        </section>
+
+        <form action="https://formspree.io/mnqgggyn" method="POST">
+            <h2>Do you have a comment or a question?</h2>
+            <div class="form-item">
+                <input type="text" id="name" name="name" placeholder="Your Name">
+            </div>
+            <div class="form-item">
+                <input type="email" id="email" name="email" placeholder="Your Email">
+            </div>
+            <div class="form-item">
+                <textarea type="comment" id="comment" name="comment" placeholder="Your comment or question"></textarea>
+            </div>
+            <div class="form-item">
+                <button type="submit">Submit</button>
+            </div>
+            <p>Thank you for taking the time to visit and explore!</p>
+        </form>
+
+    </body>
+
+    <footer>
+        <div class="footer">
+            <div class="footer-social-links">
+                <div class="footer-links">
+                    <a class="link-icons" id="github" href="https://github.com/jcat7414"><img class="flinks" id="git-hub" src="Images/git-logo.png"></a>
+                </div>
+                <div>
+                    <a class="link-icons" id="linkedin" href="https://www.linkedin.com/in/joymtaylor/"><img class="flinks" id="linkedin" src="Images/linkedin-logo.png"></a>
+                </div>
+                <div>
+                    <a class="link-icons" id="twitter" href="https://twitter.com/jcat7414"><img class="flinks" id="twitter" src="Images/twitter-logo.png"></a>
+                </div>
+            </div>
+            <div class="footer-copy">
+                <p>&copy; Joy Taylor 2020 - She Codes Plus (Brisbane)</p>
+            </div>
+        </div>
+    </footer>
+
+</html>
