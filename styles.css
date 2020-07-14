@@ -194,6 +194,50 @@ h3 {
   border: 2px solid #2e4007;
 }
 
+/* Style for About Joy Page content section */
+
+.double {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-left: 15%;
+  margin-right: 15%;
+  padding-top: 25px;
+}
+
+.bio-half-width {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 55%;
+}
+
+.bio-half-width .bio-text {
+  width: 70%;
+  text-align: justify;
+}
+
+.bio-image {
+  padding-top: 25px;
+}
+
+.bio-full-width {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding-top: 25px;
+}
+
+.bio-full-width .bio-text {
+  width: 60%;
+  text-align: justify;
+}
+
+
+
 /* Styling of the form section - common to all pages */
 h2 {
   font-family: 'Shadows Into Light Two', cursive;
