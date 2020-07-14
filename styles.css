@@ -240,6 +240,10 @@ h3 {
 }
 
 /* Style for Project Specific Language Page content section */
+.html-projects-image {
+  opacity: 0.5;
+}
+
 .project-details {
   display: flex;
   flex-direction: column;
