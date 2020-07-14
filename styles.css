@@ -6,7 +6,6 @@ html {
 }
 
 header.page-header {
-  /* width: auto; */
   height: 450px;
 }
 
@@ -237,6 +236,14 @@ h3 {
   text-align: justify;
 }
 
+#mother-half {
+  display: none;
+}
+
+#vision-half {
+  display: none;
+}
+
 /* Style for Project Specific Language Page content section */
 .html-projects-image {
   opacity: 0.5;
@@ -338,3 +345,123 @@ footer {
   text-align: center;
 }
 
+@media (max-width: 600px) {
+html {
+  font-size: 12px;
+}
+  
+/* Mobile Style for Header - common to all pages */
+header.page-header {
+  height: 150px;
+}
+
+.header-nav {
+  font-size: 14px;
+}
+
+.header-block {
+  height: 30px;
+  padding-top: 15px;
+}
+
+.home-page-link {
+  font-size: 18px;
+  padding-left: 10px;
+}
+
+#page-links a {
+  font-size: 14px;
+  padding: 0px 10px 5px 10px;
+}
+
+#lotus {
+  width: 80px;
+}
+
+h1 {
+  font-size: 60px;
+  margin-top: -100px;
+}
+
+/* Mobile Style for About Joy Page content section */
+.about-joy-image {
+  max-height: 150px;
+  width: 100%;
+}
+
+.double {
+  flex-direction: column;
+  justify-content: space-between;
+  align-content: center;
+  margin-left: 0%;
+  margin-right: 0%;
+  padding-top: 5px;
+}
+
+.bio-half-width {
+  width: 100%;
+}
+
+.bio-half-width .bio-text {
+  width: 85%;
+}
+
+.bio-image {
+  width: 85%;
+  padding-top: 15px;
+}
+
+.about-image-half {
+  width: 100%;
+}
+
+.bio-full-width {
+  padding-top: 15px;
+}
+
+.bio-full-width .bio-text {
+  width: 85%;
+}
+
+#mother-full {
+  display: none;
+}
+
+#mother-half {
+  display: block;
+}
+
+#vision-full {
+  display: none;
+}
+
+#vision-half {
+  display: block;
+}
+
+/* Mobile Style for the form section - common to all pages */
+h2 {
+  font-size: 20px;
+}
+
+form {
+  margin: 25px auto;
+  width: 85%;
+}
+
+.form-item input,
+.form-item textarea,
+.form-item button {
+  flex-basis: 65%;
+  font-size: 16px;
+  padding: 5px;
+}
+
+/* Mobile Style for footer section - common to every page */
+footer {
+  width: 80%;
+}
+
+.link-icons {
+  justify-content: space-evenly;
+}
