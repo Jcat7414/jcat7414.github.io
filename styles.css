@@ -195,6 +195,9 @@ h3 {
 }
 
 /* Style for About Joy Page content section */
+.about-joy-image {
+  opacity: 0.5;
+}
 
 .double {
   display: flex;
