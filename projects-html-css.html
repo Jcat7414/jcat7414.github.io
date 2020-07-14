@@ -27,9 +27,11 @@
         <header class="page-header">
             <!-- Top Navigations Menu -->
             <nav class="header-nav">
-                <a class="home-page-link" href="index.html">enjoy life</a>
+                <div class="header-block" id="home-link">
+                    <a class="home-page-link" href="index.html">enjoy life</a>
+                </div>
                 <!-- Navigation links (hidden by default) -->
-                <div id="page-links">
+                <div class="header-block" id="page-links">
                     <a href="index.html">Home</a>
                     <a href="projects.html">Projects</a>
                     <a href="about-joy.html">About Joy</a>
@@ -43,81 +45,96 @@
             </nav>
             
             <div class="header-img">
-                <img class="projects-image" src="Images/projects-image.jpg" alt="Photo of a Keyboard">
+                <img class="home-image" src="Images/About Joy Placeholder 1980x400.jpg" alt="Placeholder image">
             </div>
             <h1>html/css</h1>
         </header>
 
-        <article class="specific-projects">
-            <header class="specific-project-header" id="project-one">
-                <h4>Project One</h4>
-                <p>Created by Joy Taylor and [other contributors] in Month Year</p>
-            </header>
-            <body>
-                <div class="specific-project-text" id="project-one-text">
-                    <p>This paragraph will explain the purpose of the project, 
-                        ie to learn about xxx language. Also include any key 
-                        learning that resulted from completing the project.</p>
-                </div>
-                <div class="specific-project-blocks">
-                    <a class="specific-project-backend" id="project-one-name" href="#project-one-backend-name">
-                        <img class="specific-project-image" id="specific-project-one-backend-image" src="Images/project-images-square/1.jpg"></a>
-                <div class="specific-project-blocks">
-                    <a class="specific-project-frontend" id="project-one-name" href="#project-one-frontend-name">
-                        <img id="specific-project-image" id="specific-project-one-frontend-image" src="Images/project-images-square/2.jpg"></a>
-                </div>
-            </body>
-            <footer>
-                <p>Reference the original source of the project.</p>
-            </footer>
+        <article class="projects">
+            <div class="project-details">
+                <header class="specific-project-header" id="project-one">
+                    <h4>Project One</h4>
+                    <p class="author">Created by Joy Taylor and [other contributors] in Month Year</p>
+                </header>
+                <body>
+                    <div class="specific-project-text" id="project-one-text">
+                        <p>This paragraph will explain the purpose of the project, 
+                            ie to learn about xxx language. Also include any key 
+                            learning that resulted from completing the project.</p>
+                        <p>It may extend to a second paragraph expressing how I feel
+                            about this type of project.</p>
+                    </div>
+                </body>
+                <footer>
+                    <p>Credits: Reference the original source of the project.</p>
+                </footer>
+            </div>
+            <div class="project-blocks">
+                <a id="project-one-name" href="#project-one-backend-name">
+                    <img class="project-image" id="specific-project-one-backend-image" src="Images/project-images-square/1.jpg"></a>
+            </div>
+            <div class="project-blocks">
+                <a id="project-one-name" href="#project-one-frontend-name">
+                    <img class="project-image" id="specific-project-one-frontend-image" src="Images/project-images-square/2.jpg"></a>
+            </div>
         </article>
         
-        <article class="specific-projects">
-            <header class="specific-project-header" id="project-two">
-                <h4>Project Two</h4>
-                <p>Created by Joy Taylor and [other contributors] in Month Year</p>
-            </header>
-            <body>
-                <div class="specific-project-text" id="project-one-text">
-                    <p>This paragraph will explain the purpose of the project, 
-                        ie to learn about xxx language. Also include any key 
-                        learning that resulted from completing the project.</p>
-                </div>
-                <div class="specific-project-blocks">
-                    <a class="specific-project-backend" id="project-two-name" href="#project-two-backend-name">
-                        <img class="specific-project-image" id="specific-project-one-backend-image" src="Images/project-images-square/1.jpg"></a>
-                <div class="specific-project-blocks">
-                    <a class="specific-project-frontend" id="project-two-name" href="#project-two-frontend-name">
-                        <img id="specific-project-image" id="specific-project-two-frontend-image" src="Images/project-images-square/2.jpg"></a>
-                </div>
-            </body>
-            <footer>
-                <p>Reference the original source of the project.</p>
-            </footer>
+        <article class="projects">
+            <div class="project-details">
+                <header class="specific-project-header" id="project-two">
+                    <h4>Project Two</h4>
+                    <p class="author">Created by Joy Taylor and [other contributors] in Month Year</p>
+                </header>
+                <body>
+                    <div class="specific-project-text" id="project-one-text">
+                        <p>This paragraph will explain the purpose of the project, 
+                            ie to learn about xxx language. Also include any key 
+                            learning that resulted from completing the project.</p>
+                        <p>It may extend to a second paragraph expressing how I feel
+                            about this type of project.</p>
+                    </div>
+                </body>
+                <footer>
+                    <p>Credits: Reference the original source of the project.</p>
+                </footer>
+            </div>
+            <div class="project-blocks">
+                <a id="project-two-name" href="#project-two-backend-name">
+                    <img class="project-image" id="specific-project-one-backend-image" src="Images/project-images-square/1.jpg"></a>
+            </div>
+            <div class="project-blocks">
+                <a id="project-two-name" href="#project-two-frontend-name">
+                    <img class="project-image" id="specific-project-two-frontend-image" src="Images/project-images-square/2.jpg"></a>
+            </div>       
         </article>
 
-        <article class="specific-projects">
-            <header class="specific-project-header" id="project-three">
-                <h4>Project Three</h4>
-                <p>Created by Joy Taylor and [other contributors] in Month Year</p>
-            </header>
-            <body>
-                <div class="specific-project-text" id="project-one-text">
-                    <p>This paragraph will explain the purpose of the project, 
-                        ie to learn about xxx language. Also include any key 
-                        learning that resulted from completing the project.</p>
-                </div>
-                <div class="specific-project-blocks">
-                    <a class="specific-project-backend" id="project-three-name" href="#project-three-backend-name">
-                        <img class="specific-project-image" id="specific-project-three-backend-image" src="Images/project-images-square/1.jpg"></a>
-                <div class="specific-project-blocks">
-                    <a class="specific-project-frontend" id="project-three-name" href="#project-three-frontend-name">
-                        <img id="specific-project-image" id="specific-project-three-frontend-image" src="Images/project-images-square/2.jpg"></a>
-                </div>
-            </body>
-            <footer>
-                <p>Reference the original source of the project.</p>
-            </footer>
+        <article class="projects">
+            <div class="project-details">
+                <header class="specific-project-header" id="project-three">
+                    <h4>Project Three</h4>
+                    <p class="author">Created by Joy Taylor and [other contributors] in Month Year</p>
+                </header>
+                <body>
+                    <div class="specific-project-text" id="project-one-text">
+                        <p>This paragraph will explain the purpose of the project, 
+                            ie to learn about xxx language. Also include any key 
+                            learning that resulted from completing the project.</p>
+                        <p>It may extend to a second paragraph expressing how I feel
+                            about this type of project.</p>
+                    </div>
+                </body>
+                <footer>
+                    <p>Credits: Reference the original source of the project.</p>
+                </footer>
+            </div>
+            <div class="project-blocks">
+                <a id="project-three-name" href="#project-three-backend-name">
+                    <img class="project-image" id="specific-project-three-backend-image" src="Images/project-images-square/1.jpg"></a>
+            </div>
+            <div class="project-blocks">
+                <a id="project-three-name" href="#project-three-frontend-name">
+                    <img class="project-image" id="specific-project-three-frontend-image" src="Images/project-images-square/2.jpg"></a>
+            </div>
         </article>
 
         <form action="https://formspree.io/mnqgggyn" method="POST">
