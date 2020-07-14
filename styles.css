@@ -6,7 +6,7 @@ html {
 }
 
 header.page-header {
-  width: auto;
+  /* width: auto; */
   height: 450px;
 }
 
@@ -70,16 +70,6 @@ header.page-header {
   margin-top: 50px;
 }
 
-.home-img {
-  width: 100%;
-  height: auto;
-}
-
-.projects-img {
-  width: 100%;
-  height: auto;
-}
-
 h1 {
   font-family: 'Playball', cursive;
   font-size: 120px;
@@ -88,6 +78,10 @@ h1 {
 }
 
 /* Style for introduction section on Home Page */
+.home-image {
+  opacity: 0.5;
+}
+
 .introduction {
   display: flex;
   justify-content: space-around;
@@ -151,6 +145,10 @@ h1 {
 }
 
 /* Style for Projects Page content section */
+.projects-image {
+  opacity: 0.5;
+}
+
 .projects {
   display: flex;
   flex-direction: row;
