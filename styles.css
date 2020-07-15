@@ -10,7 +10,7 @@ body {
 }
 
 header.page-header {
-  height: 450px;
+  /* height: 450px; */
 }
 
 /* Style the header navigation menu - common to all pages */
@@ -70,24 +70,31 @@ header.page-header {
 
 /* Style the header image with page title overlay - common to each page */
 .header-img {
+  width: 100%;
   margin-top: 50px;
+}
+
+.title {
+  margin-top: -20%;
 }
 
 h1 {
   font-family: 'Playball', cursive;
   font-size: 120px;
   text-align: center;
-  margin-top: -280px;
+  /* margin-top: -280px; */
 }
 
 /* Style for introduction section on Home Page */
 .home-image {
+  width: 100%;
   opacity: 0.5;
 }
 
 .introduction {
   display: flex;
   justify-content: space-evenly;
+  margin-top: 10%;
   padding-top: 25px;
   padding-bottom: 25px;
 }
@@ -150,6 +157,7 @@ h1 {
 
 /* Style for Projects Page content section */
 .projects-image {
+  width: 100%;
   opacity: 0.5;
 }
 
@@ -159,6 +167,10 @@ h1 {
   justify-content: space-around;
   padding-top: 25px;
   padding-bottom: 25px;
+}
+
+#first-project {
+  margin-top: 10%;
 }
 
 .learning {
@@ -198,6 +210,7 @@ h3 {
 
 /* Style for About Joy Page content section */
 .about-joy-image {
+  width: 100%;
   opacity: 0.5;
 }
 
@@ -209,6 +222,11 @@ h3 {
   margin-right: 15%;
   padding-top: 25px;
 }
+
+#first-bio {
+  margin-top: 10%;
+}
+
 
 .bio-half-width {
   display: flex;
@@ -251,6 +269,7 @@ h3 {
 
 /* Style for Project Specific Language Page content section */
 .html-projects-image {
+  width: 100%;
   opacity: 0.5;
 }
 
@@ -276,6 +295,7 @@ h3 {
 
 article footer {
   margin-left: 0px;
+  width: 100%;
 }
 
 /* Styling of the form section - common to all pages */
@@ -397,6 +417,7 @@ h1 {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
+  margin: 5%;
   padding-top: 5px;
   padding-bottom: 0px;
 }
@@ -436,6 +457,10 @@ h1 {
   padding-bottom: 5px;
 }
 
+#first-project {
+  margin: 3%;
+}
+
 .learning {
   padding-top: 5px;
   flex-wrap: wrap;
@@ -471,6 +496,10 @@ h1 {
   margin-left: 0%;
   margin-right: 0%;
   padding-top: 5px;
+}
+
+#first-bio {
+  margin: 3%;
 }
 
 .bio-half-width {
