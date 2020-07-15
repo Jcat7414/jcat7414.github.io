@@ -5,6 +5,10 @@ html {
   color: #2e4007;
 }
 
+body {
+  margin: 0px;
+}
+
 header.page-header {
   height: 450px;
 }
@@ -157,7 +161,7 @@ h1 {
   padding-bottom: 25px;
 }
 
-#learning {
+.learning {
   padding-top: 25px;
   display: flex;
   flex-direction: row;
@@ -418,6 +422,44 @@ h1 {
 .asking {
   width: 75%;
   padding-top: 25px;
+}
+
+/* Mobile Style for Projects Page */
+.projects-image {
+  max-height: 150px;
+  width: 100%;
+}
+
+.projects {
+  flex-direction: column;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.learning {
+  padding-top: 0px;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.projects-text {
+  flex-basis: 100%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.project-image {
+  width: 100%;
+}
+
+.project-blocks {
+  flex-basis: 30%;
+  padding: 5px;
+}
+
+.project-blocks:hover {
+  padding: 3px;
+  border: 2px solid #2e4007;
 }
 
 
