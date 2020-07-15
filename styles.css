@@ -83,7 +83,7 @@ h1 {
 
 .introduction {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   padding-top: 25px;
   padding-bottom: 25px;
 }
@@ -100,7 +100,7 @@ h1 {
 }
 
 .profile-photo {
-  flex-basis: 20%;
+  flex-basis: 12%;
   justify-items: center;
 }
 
@@ -108,7 +108,8 @@ h1 {
 .nav-bar-full-width {
   margin-top: 50px;
   background-color: #669966;
-  padding: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -318,6 +319,7 @@ form {
 }
 
 form p {
+  font-family: 'Shadows Into Light Two', cursive;
   text-align: center;
   padding-bottom: 20px;
 }
@@ -337,8 +339,6 @@ footer {
 .link-icons {
   display: block;
   padding: 10px;
-  /* padding-left: 10px; */
-  /* padding-right: 10px; */
 }
 
 .footer-copy {
@@ -382,6 +382,44 @@ h1 {
   font-size: 60px;
   margin-top: -100px;
 }
+
+/* Mobile Style for Home Page */
+.home-image {
+  max-height: 150px;
+  width: 100%;
+}
+
+.introduction {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding-top: 5px;
+  padding-bottom: 0px;
+}
+
+.intro-words {
+  width: 75%;
+  margin: auto;
+}
+
+.profile-photo {
+  flex-basis: 100%;
+  margin: auto;
+  padding-top: 10px;
+}
+
+/* Mobile Style for nav bar on Home Page */
+.nav-bar-full-width {
+  margin-top: 25px;
+  padding: 0px;
+  width: 100%;
+}
+
+.asking {
+  width: 75%;
+  padding-top: 25px;
+}
+
 
 /* Mobile Style for About Joy Page content section */
 .about-joy-image {
