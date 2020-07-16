@@ -20,6 +20,7 @@ header.page-header {
   background-color: #669966;
   position: fixed;
   top: 0;
+  z-index: 300;
   width: 100%;
   display: flex;
   justify-content: space-between;
