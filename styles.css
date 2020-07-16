@@ -195,17 +195,41 @@ h3 {
 }
 
 .project-image {
-  max-width: 300px;
+  display: block;
+  width: 100%;
+  height: auto;
 }
 
 .project-blocks {
-  flex-basis: 10%;
-  padding: 5px;
+  position: relative;
+  width: 45%;
+  max-width: 300px;
+  flex-basis: 25%;
 }
 
-.project-blocks:hover {
+* {box-sizing: border-box}
+
+.overlay-middle {
+  position: absolute;
+  bottom: 40%;
+  background: #669966;
+  width: 100%;
+  transition: .5s ease;
+  opacity:0;
+  color: #fff9f9;
+  font-size: 24px;
+  font-family: 'Shadows Into Light Two', cursive;
+  padding: 20px;
+  text-align: center;
+}
+
+.project-image:hover {
   padding: 3px;
   border: 2px solid #2e4007;
+}
+
+.project-blocks:hover .overlay-middle {
+  opacity: 0.75;
 }
 
 /* Style for About Joy Page content section */
@@ -227,22 +251,37 @@ h3 {
   margin-top: 10%;
 }
 
-
 .bio-half-width {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  width: 55%;
+  width: 45%;
 }
 
 .bio-half-width .bio-text {
-  width: 70%;
+  width: 85%;
   text-align: justify;
 }
 
 .bio-image {
   padding-top: 25px;
+  position: relative;
+  width: 100%;
+  max-width: 1200px;
+  flex-basis: 35%;
+}
+
+.about-image-half {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.about-image-full {
+  display: block;
+  width: 100%;
+  height: auto;
 }
 
 .bio-full-width {
@@ -265,6 +304,24 @@ h3 {
 
 #vision-half {
   display: none;
+}
+
+.overlay-bottom {
+  position: absolute;
+  bottom: 5%;
+  background: #669966;
+  width: 100%;
+  transition: .5s ease;
+  opacity:0;
+  color: #fff9f9;
+  font-size: 24px;
+  font-family: 'Shadows Into Light Two', cursive;
+  padding: 10px;
+  text-align: center;
+}
+
+.bio-image:hover .overlay-bottom {
+  opacity: 0.75;
 }
 
 /* Style for Project Specific Language Page content section */
@@ -474,13 +531,20 @@ h1 {
   padding-bottom: 5px;
 }
 
-.project-image {
-  width: 100%;
-}
-
 .project-blocks {
   flex-basis: 30%;
-  padding: 5px;
+}
+
+.overlay-middle {
+  bottom: 20%;
+  width: 100%;
+  font-size: 18px;
+  opacity: 0.75;
+}
+
+.project-image:hover {
+  padding: 3px;
+  border: 2px solid #2e4007;
 }
 
 /* Mobile Style for About Joy Page content section */
@@ -541,6 +605,10 @@ h1 {
 
 #vision-half {
   display: block;
+}
+
+.overlay-bottom {
+  opacity: 0.75;
 }
 
 /* Mobile Style for Project Specific Language Page */
