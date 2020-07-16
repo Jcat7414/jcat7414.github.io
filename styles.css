@@ -384,6 +384,27 @@ form {
   padding: 10px;
 }
 
+input[type=text]:focus {
+  background-color: #669966;
+  opacity: 0.75;
+  color: #fff9f9;
+  font-family: 'Roboto', sans-serif;
+}
+
+input[type=email]:focus {
+  background-color: #669966;
+  opacity: 0.75;
+  color: #fff9f9;
+  font-family: 'Roboto', sans-serif;
+}
+
+textarea[type=comment]:focus {
+  background-color: #669966;
+  opacity: 0.75;
+  color: #fff9f9;
+  font-family: 'Roboto', sans-serif;
+}
+
 .form-item button {
   background-color: #fff9f9;
   flex-basis: 25%;
@@ -619,8 +640,8 @@ h1 {
 
 article .projects {
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-evenly;
 }
 
 article .project-details {
