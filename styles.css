@@ -9,10 +9,6 @@ body {
   margin: 0px;
 }
 
-header.page-header {
-  /* height: 450px; */
-}
-
 /* Style the header navigation menu - common to all pages */
 .header-nav {
   height: 50px;
@@ -83,7 +79,6 @@ h1 {
   font-family: 'Playball', cursive;
   font-size: 120px;
   text-align: center;
-  /* margin-top: -280px; */
 }
 
 /* Style for introduction section on Home Page */
@@ -427,18 +422,17 @@ footer {
   text-align: center;
 }
 
-@media only screen and (max-width: 600px) {
+
+
+/* Modified style for medium screens */
+@media only screen and (max-width: 1000px) {
 html {
-  font-size: 12px;
+  font-size: 14px;
 }
   
-/* Mobile Style for Header - common to all pages */
-header.page-header {
-  height: 150px;
-}
-
+/* Medium Style for Header - common to all pages */
 .header-nav {
-  font-size: 14px;
+  font-size: 18px;
 }
 
 .header-block {
@@ -460,13 +454,18 @@ header.page-header {
   width: 80px;
 }
 
+.title {
+  margin-top: 00%;
+}
+
 h1 {
   font-size: 60px;
   margin-top: -100px;
 }
 
-/* Mobile Style for Home Page */
+/* Medium Style for Home Page */
 .home-image {
+  margin-top: 0px;
   max-height: 150px;
   width: 100%;
 }
@@ -491,7 +490,7 @@ h1 {
   padding-top: 10px;
 }
 
-/* Mobile Style for nav bar on Home Page */
+/* Medium Style for nav bar on Home Page */
 .nav-bar-full-width {
   margin-top: 25px;
   padding: 0px;
@@ -503,7 +502,7 @@ h1 {
   padding-top: 25px;
 }
 
-/* Mobile Style for Projects Page */
+/* Medium Style for Projects Page */
 .projects-image {
   max-height: 150px;
   width: 100%;
@@ -537,7 +536,7 @@ h1 {
 }
 
 .overlay-middle {
-  bottom: 20%;
+  bottom: 30%;
   width: 100%;
   font-size: 18px;
   opacity: 0.75;
@@ -548,7 +547,7 @@ h1 {
   border: 2px solid #2e4007;
 }
 
-/* Mobile Style for About Joy Page content section */
+/* Medium Style for About Joy Page */
 .about-joy-image {
   max-height: 150px;
   width: 100%;
@@ -612,7 +611,7 @@ h1 {
   opacity: 0.75;
 }
 
-/* Mobile Style for Project Specific Language Page */
+/* Medium Style for Project Specific Language Page */
 .html-projects-image {
   max-height: 150px;
   width: 100%;
@@ -648,7 +647,7 @@ article .project-blocks {
   margin: auto;
 }
 
-/* Mobile Style for the form section - common to all pages */
+/* Medium Style for Form section - common to all pages */
 h2 {
   font-size: 20px;
 }
@@ -666,7 +665,7 @@ form {
   padding: 5px;
 }
 
-/* Mobile Style for footer section - common to every page */
+/* Medium Style for Footer section - common to all pages */
 footer {
   width: 80%;
 }
@@ -674,3 +673,229 @@ footer {
 .link-icons {
   justify-content: space-evenly;
 }
+
+
+
+
+
+/* Modified style for small screens */
+@media only screen and (max-width: 400px) {
+  html {
+    font-size: 12px;
+  }
+    
+  /* Mobile Style for Header - common to all pages */
+  .header-nav {
+    font-size: 14px;
+  }
+  
+  .header-block {
+    height: 30px;
+    padding-top: 15px;
+  }
+  
+  .home-page-link {
+    font-size: 18px;
+    padding-left: 10px;
+  }
+  
+  #page-links a {
+    font-size: 14px;
+    padding: 0px 10px 5px 10px;
+  }
+  
+  #lotus {
+    width: 80px;
+  }
+  
+  .title {
+    margin-top: -20%;
+  }
+  
+  h1 {
+    font-size: 40px;
+    margin-top: 0px;
+  }
+  
+  /* Mobile Style for Home Page */
+  .home-image {
+    margin-top: 0px;
+  }
+  
+  .introduction {
+    margin: 0%;
+  }
+  
+  .intro-words {
+    width: 85%;
+  }
+  
+  .asking {
+    width: 85%;
+    padding-top: 25px;
+  }
+  
+  /* Mobile Style for Projects Page */
+  .projects-image {
+    max-height: 150px;
+    width: 100%;
+  }
+  
+  .projects {
+    flex-direction: column;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  
+  #first-project {
+    margin: 3%;
+  }
+  
+  .learning {
+    padding-top: 5px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .projects-text {
+    flex-basis: 100%;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-bottom: 5px;
+  }
+  
+  .project-blocks {
+    flex-basis: 30%;
+  }
+  
+  .overlay-middle {
+    bottom: 25%;
+    width: 100%;
+    font-size: 18px;
+    padding: 8px;
+    opacity: 0.75;
+  }
+  
+  .project-image:hover {
+    padding: 3px;
+    border: 2px solid #2e4007;
+  }
+  
+  /* Mobile Style for About Joy Page content section */
+  .about-joy-image {
+    max-height: 150px;
+    width: 100%;
+  }
+  
+  .double {
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: center;
+    margin-left: 0%;
+    margin-right: 0%;
+    padding-top: 5px;
+  }
+  
+  #first-bio {
+    margin: 3%;
+  }
+  
+  .bio-half-width {
+    width: 100%;
+  }
+  
+  .bio-half-width .bio-text {
+    width: 85%;
+  }
+  
+  .bio-image {
+    width: 85%;
+    padding-top: 15px;
+  }
+  
+  .about-image-half {
+    width: 100%;
+  }
+  
+  .bio-full-width {
+    padding-top: 15px;
+  }
+  
+  .bio-full-width .bio-text {
+    width: 85%;
+  }
+  
+  #mother-full {
+    display: none;
+  }
+  
+  #mother-half {
+    display: block;
+  }
+  
+  #vision-full {
+    display: none;
+  }
+  
+  #vision-half {
+    display: block;
+  }
+  
+  .overlay-bottom {
+    opacity: 0.75;
+    font-size: 18px;
+    padding: 8px;
+  }
+
+  /* Mobile Style for Project Specific Language Page */
+  .html-projects-image {
+    max-height: 150px;
+    width: 100%;
+  }
+  
+  article .projects {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  
+  article .project-details {
+    flex-basis: 80%;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+  
+  .specific-project-header h4 {
+    font-size: 24px;
+    text-align: left;
+  }
+  
+  .author {
+    font-size: 12px;
+  }
+  
+  article .project-image {
+    width: 100%;
+  }
+  
+  article .project-blocks {
+    width: 50%;
+    margin: auto;
+  }
+  
+  /* Mobile Style for the form section - common to all pages */
+  h2 {
+    font-size: 18px;
+  }
+  
+  form {
+    margin: 25px auto;
+    width: 95%;
+  }
+  
+  .form-item input,
+  .form-item textarea,
+  .form-item button {
+    flex-basis: 85%;
+    font-size: 14px;
+  }
