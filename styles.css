@@ -321,7 +321,7 @@ h3 {
 }
 
 /* Style for Project Specific Language Page content section */
-.html-projects-image {
+.projects-image {
   width: 100%;
   opacity: 0.5;
 }
@@ -633,7 +633,7 @@ h1 {
 }
 
 /* Medium Style for Project Specific Language Page */
-.html-projects-image {
+.projects-image {
   max-height: 150px;
   width: 100%;
 }
@@ -869,7 +869,7 @@ footer {
   }
 
   /* Mobile Style for Project Specific Language Page */
-  .html-projects-image {
+  .projects-image {
     max-height: 150px;
     width: 100%;
   }
